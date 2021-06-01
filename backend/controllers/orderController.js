@@ -68,7 +68,7 @@ exports.myOrder = catchAsyncErrors(async(req,res,next) =>{
 
 
 
-// Get all orders  - ADMIN => /api/v1/admin/orders
+// Get all orders  - ADMIN => /api/v1/admin/orders/
 
 exports.allOrders = catchAsyncErrors(async(req,res,next) =>{
     const orders = await Order.find()
@@ -89,27 +89,27 @@ exports.allOrders = catchAsyncErrors(async(req,res,next) =>{
 
 
 
-// Update & Process order - ADMIN => /api/v1/admin/orders
+// Update & Process order - ADMIN => /api/v1/admin/order/:id
 
 exports.UpdateOrder = catchAsyncErrors(async(req,res,next) =>{
+
     const order = await Order.findById(req.params.id)
 
-    
-    if(order.orderStatus === 'Delivered') {
-        return next(new ErrorHandler('You have already delivered this order  ',400))
+    if (order.orderStatus === 'Delivered') {
+        return next(new ErrorHandler('You have already delivered this order', 400))
     }
 
-    order.orderItems.forEach(async itms =>{
-        await updateStock(item.product,item.quantity)
+    order.orderItems.forEach(async item => {
+        await updateStock(item.product, item.quantity)
     })
 
     order.orderStatus = req.body.status,
-    order.deliveredAt = Date.now()
+        order.deliveredAt = Date.now()
 
-    await order.save();
+    await order.save()
 
     res.status(200).json({
-        success : true,
+        success: true,
         
     
     })

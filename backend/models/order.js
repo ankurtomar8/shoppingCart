@@ -1,125 +1,103 @@
-const mongoose = require('mongoose');
-
+const mongoose = require('mongoose')
 
 const orderSchema = mongoose.Schema({
-
-    shippingInfo : {
-        address :{
+    shippingInfo: {
+        address: {
             type: String,
             required: true
         },
-         city: {
-            type:String,
-            required:true
+        city: {
+            type: String,
+            required: true
         },
-
-        phoneNo : {
-            type:String,
-            required:true
+        phoneNo: {
+            type: String,
+            required: true
         },
-
-        postalCode : {
-            type:String,
-            required:true
+        postalCode: {
+            type: String,
+            required: true
         },
-
-        country : {
-            type:String,
-            required:true
+        country: {
+            type: String,
+            required: true
         }
     },
-
-    user : {
-        type : mongoose.Schema.Types.ObjectId,
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref:'User'
+        ref: 'User'
     },
-
-    orderItems:[
+    orderItems: [
         {
-            name : {
+            name: {
                 type: String,
-                required:true
+                required: true
             },
-            quantity : {
+            quantity: {
                 type: Number,
-                required:true
-
+                required: true
             },
-
-            image : {
+            image: {
                 type: String,
-                required:true
-
+                required: true
             },
-
-            price : {
+            price: {
                 type: Number,
-                required:true
-
+                required: true
             },
-            product:{
-                type : mongoose.Schema.Types.ObjectId,
+            product: {
+                type: mongoose.Schema.Types.ObjectId,
                 required: true,
-                ref:'Product'
+                ref: 'Product'
             }
-
-
         }
-
     ],
-
-    paymentInfo:{
-        id:{
-            type:String
+    paymentInfo: {
+        id: {
+            type: String
         },
-        status :{
-            type:String
+        status: {
+            type: String
         }
     },
-
-    paidAt:{
-        type:Date
-    },
-    
-    itemsPrice : {
-        type:Number,
-        required:true,
-        default:0.0
+    paidAt: {
+        type: Date
     },
 
-    taxPrice : {
-        type:Number,
-        required:true,
-        default:0.0
+    itemsPrice: {
+        type: Number,
+        required: true,
+        default: 0.0
     },
-
-    shippingPrice : {
-        type:Number,
-        required:true,
-        default:0.0
+    taxPrice: {
+        type: Number,
+        required: true,
+        default: 0.0
     },
-    totalPrice : {
-        type:Number,
-        required:true,
-        default:0.0
+    shippingPrice: {
+        type: Number,
+        required: true,
+        default: 0.0
     },
-
-    orderStatus :{
+    totalPrice: {
+        type: Number,
+        required: true,
+        default: 0.0
+    },
+    orderStatus: {
         type: String,
-        required: true ,
+        required: true,
         default: 'Processing'
     },
-    deliveredAt:
-    {
-        type : Date ,
-        
+    deliveredAt: {
+        type: Date
     },
-    
-    createdAt:{
-        type:Date,
-        default:Date.now
+    createdAt: {
+        type: Date,
+        default: Date.now
     }
+
 })
 
-module.exports = mongoose.model('Order',orderSchema)
+module.exports = mongoose.model('Order', orderSchema)

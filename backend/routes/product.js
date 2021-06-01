@@ -5,12 +5,15 @@ const { getProducts ,
      newProduct ,
       getSingleProduct , 
       updateProduct ,
-      deleteProduct,createProductReview,getProductReviews ,deleteReview} = require('../controllers/productController')
+      deleteProduct,createProductReview,getProductReviews ,deleteReview, getAdminProducts} = require('../controllers/productController')
 
  const  {isAuthenticatedUser , authorizeRoles } = require('../middlewares/auth')
 
 // get all products
 router.route('/products').get(getProducts);
+
+// Admin routes 
+router.route('/admin/products').get(getAdminProducts);
 
 // Specific Product
 router.route('/product/:id').get(getSingleProduct);

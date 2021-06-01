@@ -20,7 +20,7 @@ router.route('/orders/me').get(isAuthenticatedUser,myOrder);
 
 router.route('/admin/orders').get(isAuthenticatedUser,authorizeRoles('admin'),allOrders);
 
-router.route('/admin/orders/:id').put(isAuthenticatedUser,authorizeRoles('admin'),UpdateOrder)
+router.route('/admin/order/:id').put(isAuthenticatedUser,authorizeRoles('admin'),UpdateOrder)
                                 .delete(isAuthenticatedUser,authorizeRoles('admin'),deleteOrder);
 
 

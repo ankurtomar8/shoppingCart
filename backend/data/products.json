@@ -6,7 +6,7 @@
         "ratings" : 4.5,
         "images" : [{
             "public_id" : "products/tzfsnrli3szrdnb4jgge",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621851582/products/51kocbkrTQL._SL1100__idajha.jpg"
         }],
         "category" : "Electronics",
         "seller" : "Ebay",
@@ -21,7 +21,7 @@
         "ratings" : 1.65,
         "images" : [{
             "public_id" : "products/l2bd3hhy8dds1cxstuuz",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231284/products/l2bd3hhy8dds1cxstuuz.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621764265/products/71ZhIbKybmL.__AC_SX300_SY300_QL70_FMwebp__cu80pz.webp"
         }],
         "category" : "Electronics",
         "seller" : "Amazon",
@@ -36,7 +36,7 @@
         "ratings" : 3.5,
         "images" : [{
             "public_id" : "products/chairmount_nuubea",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/chairmount_nuubea.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621764265/products/71ZhIbKybmL.__AC_SX300_SY300_QL70_FMwebp__cu80pz.webp"
         }],
         "category" : "Electronics",
         "seller" : "Amazon",
@@ -51,7 +51,7 @@
         "ratings" : 4.5,
         "images" : [{
             "public_id" : "products/headphones_t2afnb",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/headphones_t2afnb.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621764367/products/81_2BjNVOUsJL._SL1500__fdxvrj.jpg"
         }],
         "category" : "Headphones",
         "seller" : "Amazon",
@@ -66,7 +66,7 @@
         "ratings" : 4.8,
         "images" : [{
             "public_id" : "products/airpords_e5cqqr",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/airpords_e5cqqr.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621764529/products/71NTi82uBEL._AC_SL1500__sc0aut.jpg"
         }],
         "category" : "Electronics",
         "seller" : "Amazon",
@@ -81,7 +81,7 @@
         "ratings" : 4.1,
         "images" : [{
             "public_id" : "products/eahhtj1bkn1k9gjgd3hn",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606233125/products/eahhtj1bkn1k9gjgd3hn.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1622206970/products/bznamppupzjndwnvp9dn.jpg"
         }],
         "category" : "Accessories",
         "seller" : "Amazon",
@@ -96,7 +96,7 @@
         "ratings" : 4.7,
         "images" : [{
             "public_id" : "products/camera_ridc0i",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/camera_ridc0i.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1622460349/products/51DE4FICRGL_y0zty3.jpg"
         }],
         "category" : "Cameras",
         "seller" : "Amazon",
@@ -111,7 +111,7 @@
         "ratings" : 4.9,
         "images" : [{
             "public_id" : "products/macbook_o2cj2k",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/macbook_o2cj2k.jpg"
+            "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1622460396/products/71an9eiBxpL._SL1500__d2ojbr.jpg"
         }],
         "category" : "Laptops",
         "seller" : "Amazon",
@@ -127,15 +127,15 @@
         "images" : [
             {
                 "public_id" : "products/wmoa49q9e70ze9xtcra2",
-                "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/wmoa49q9e70ze9xtcra2.jpg"
+                "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621851501/products/61MHiuehPKL._SL1500__jwfooc.jpg"
             },
             {
                 "public_id" : "products/i0k1wdwi5hrpmzwxvsds",
-                "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/i0k1wdwi5hrpmzwxvsds.jpg" 
+                "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621851501/products/61MHiuehPKL._SL1500__jwfooc.jpg" 
             },
             {
                 "public_id" : "products/bshmuo9qisfhz4azvnsd",
-                "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/bshmuo9qisfhz4azvnsd.jpg"
+                "url" : "https://res.cloudinary.com/ankursinghtomar/image/upload/v1621851501/products/61MHiuehPKL._SL1500__jwfooc.jpg"
             }
     ],
         "category" : "Food",

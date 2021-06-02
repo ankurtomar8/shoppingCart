@@ -13,3 +13,8 @@ npm i
 Use the following command to put some dummy products in that database. Run it in the root folder.
 
 npm run seeder
+
+
+# For live Working of this project 
+
+https://shoppingcart-heisenbug.herokuapp.com/
